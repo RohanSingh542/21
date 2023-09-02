@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(207, 38, 38),rgb(194, 133, 20),rgb(63, 54, 54),rgb(68, 230, 68),yellowgreen);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#cont
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+header img{
+    width: 35%;
+}
+header h1{
+    margin: 0;
+    color: red;
+    font-size: 8rem;
+    padding-left: 2rem;
+}
+header span{
+    color: white;
+}
+main h2{
+    text-align: center;
+    color:chartreuse;
+    font-size: 2rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+    margin-top: 1rem;
+}
+main h4{
+    text-align: center;
+}
+main #but{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+main #but button{
+    width: 25%;
+    height: 2rem;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color: rgb(165, 13, 224);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+main #but #new{
+    background-color: orangered;
+}
+ main #result{
+    text-align: center;
+    background-color: green;
+    width: 25%;
+    height: 2rem;
+    border-radius: 5px;
+    border: solid 1px white;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+main p{
+    text-align: center;
+    font-size: 2rem;
+}
